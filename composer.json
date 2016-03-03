@@ -1,0 +1,21 @@
+{
+    "name": "guilhermednt/config",
+    "description": "Simple config lib",
+    "authors": [
+        {
+            "name": "Guilherme Donato",
+            "email": "guilhermednt@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Donato\\Configuration\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "symfony/yaml": "^3.0"
+    }
+}
